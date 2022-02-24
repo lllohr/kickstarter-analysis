@@ -61,3 +61,10 @@ One of the limitations of this dataset is that there is so much data to look at 
 - What are some other possible tables and/or graphs that we could create?
 We could compare the different categories and see which ones raised the most. Did documentaries raise more money than plays? Could we compare the fundraising across categories and find out what made them successful? 
 
+### Resubmit Project with Corrections
+The project is resubmitted with corrections. The project was returned with errors on calculations using the COUNTIFS() function. When I re-entered the COUNTIFS() function, it was determined that there were typos in the '30000 to 34999' and '50000 or More' data rows. The '30000 to 34999' row was displaying incorrectly due to a misinput in the COUNTIFS() formula of '3000 to 34999' and thus returned an incorrect value. In the '50000 or More' data row, it was determined that there was a misinput of '>50000'. This value should have been '>=50000'. 
+
+## How I Recalculated the Data:
+At first, I tried to look at the offending formulas to see why I was getting incorrect values. I was unable to identify the error. In frustration, I started with a new sheet and named it, "Outcomes Based on Goals RETRY." I performed all the functions from scratch, including recreating my graph. The truth? I understood how to perform the formula much more effectively, accurately, and efficiently after repeating the steps and starting from the beginning. 
+
+
